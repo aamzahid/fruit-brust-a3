@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+     <!-- tailwind css and daisy UI -->
+
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+ 
+     <!-- Lato fonts -->
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+ 
+     <style>
+         .lato{
+           font-family: 'Lato', sans-serif;
+         }
+     </style>
+</head>
+<body class="lato">
+
+    <!-- header  -->
+    <header class="xl:max-w-screen-lg 2xl:max-w-[1440px]  mx-auto mt-10">
+        <!-- nav section -->
+
+        <nav>
+            <div class="navbar flex-row-reverse md:flex-row justify-between lg:bg-[#F85559] xl:rounded-full lg:text-white xl:mt-10 xl:h-20 2xl:mt-12 2xl:h-28">
+  
+              <div class="navbar-start w-1/6">
+                  <div class="dropdown dropdown-end md:hidden">
+                  <label tabindex="0" class="btn btn-ghost btn-circle m-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg></label>
+                  <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="">Shop</a></li>
+                      <li><a href="">All Fruits</a></li>
+                  </ul>
+                </div>
+  
+                <div class="dropdown hidden md:block lg:hidden">
+                  <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="">Shop</a></li>
+                      <li><a href="">All Fruits</a></li>
+                  </ul>
+  
+                </div>
+                <div class="hidden lg:block">
+                  <ul class="flex items-center no whitespace-nowrap">
+                      <li>
+                        <a  class="btn btn-ghost text-xs" href="">Home</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-ghost text-xs"  href="">About  Us</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-ghost text-xs"  href="">Shop</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-ghost text-xs"  href="">All  Fruits</a>
+                      </li>
+                  </ul>
+                </div>
+  
+              </div>
+              <div class="navbar-center md:gap-16 lg:gap-28 2xl:gap-80">
+                  <div class="flex justify-between items-center">
+                    <img class="w-8 h-9 2xl:w-11 2xl:h-12 ml-2 md:ml-0" src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">Fruit Burst</a>
+  
+                  </div>
+                  <div class="form-control hidden md:block mr-6">
+                    <div class="input-group input-bordered border-2  rounded-full overflow-hidden bg-white h-14 ">
+                      <input type="text" placeholder="Search here" class="input text-black"/>
+  
+                      <button class="btn btn-ghost btn-circle hover:bg-transparent">
+                        <svg class="text-black w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </nav>
+  
+
+    </header>
+
+
+
+
+
+</body>
+</html>
